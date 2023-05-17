@@ -8,7 +8,7 @@ const FriendsContent = () => {
     axiosWithAuth()
       .get("http://localhost:9000/api/friends")
       .then((res) => setData(res.data))
-      .catch((Err) => console.error(err));
+      .catch((err) => console.error(err));
   }, []);
 
   return (
