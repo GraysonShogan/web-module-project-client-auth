@@ -30,7 +30,7 @@ export default function AddFriendForm() {
       <form>
         <label onSubmit={handleSubmit}>
           {""}
-          friend name
+          Friend Name
           <input
             type="text"
             calue={creds.name}
